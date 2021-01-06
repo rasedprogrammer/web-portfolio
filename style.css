@@ -1,1 +1,104 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.manu{
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+.manu li{
+    display: inline-block;
+    margin: 10px 5px;
+}
+section{
+    height: 700px;
+}
+.half-width{
+    display: block;
+    float: left;
+    width: 35%;
+    margin: 6%;
+    padding: 1%;
+}
+.half-width img{
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+    color: cornflowerblue;
+}
+.color-highlight{
+    color:salmon;
+    text-transform: uppercase;
+}
+p{
+    color: slategray;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon, tomato);
+    border-radius: 5px;
+    color: white;
+    padding: 15px 35px;
+    font-size: 15px;
+}
+.about-area{
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+}
 
+#rased{
+    margin: 10% auto;
+    width: 100%;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.box{
+    width: 20%;
+    float: left;;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 5px;
+}
+
+.box img{
+    width: 100%;
+}
+
+#project{
+    text-align: center;
+}
+
+#box1{
+    margin-left: 170px;
+}
+
+h3{
+    color: dimgrey;
+}
+.work{
+    background: url("images/work-area.png");
+    background-repeat: no-repeat;
+   background-size: cover;
+   margin: 34px;
+   padding: 95px;
+   display: flex;
+   justify-content: space-around;
+}
+
+#word-inquiry{
+    color: honeydew;
+}
+
+.footer-area{
+    text-align: center;
+}
+.footer-area img{
+    width: 35px;
+    margin: 10px;
+}
