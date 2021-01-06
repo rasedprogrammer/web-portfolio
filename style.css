@@ -98,6 +98,9 @@ h3{
 .footer-area{
     text-align: center;
 }
+#email{
+    color:cornflowerblue;
+}
 .footer-area img{
     width: 35px;
     margin: 10px;
